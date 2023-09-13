@@ -4,6 +4,7 @@ interface Props {
   backgroundColor?: string;
   textColor?: string;
   borderColor?: string;
+  fullWidth?: boolean;
 }
 
 const Button = ({
@@ -12,10 +13,13 @@ const Button = ({
   backgroundColor,
   textColor,
   borderColor,
+  fullWidth,
 }: Props) => {
   return (
     <button
-      className={`flex items-center justify-center gap-2 rounded-full border ${
+      className={`flex items-center justify-center gap-2 rounded-full ${
+        fullWidth && 'w-full'
+      } border ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : 'border-coral-red bg-coral-red text-white'
