@@ -1,6 +1,6 @@
 # Nike Landing Page
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/francislagares/react-typescript-starter/tests.yaml?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/francislagares/nike-landing-page/tests.yaml?style=for-the-badge)
 ## Built with
 
 <p>
@@ -20,6 +20,8 @@
     <img src='https://img.shields.io/badge/tailwind css-38B2AC?logo=tailwind-css&logoColor=white&style=for-the-badge' />
   </a>
 </p>
+
+![Image](https://res.cloudinary.com/chatty-app/image/upload/v1694627179/Screenshot_from_2023-09-10_20-55-46_swfdod.png)
 
 ## Tested with
 
